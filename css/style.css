@@ -152,7 +152,7 @@ h6 {
 }
 
 .header .nav-item.active .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--pink);
 }
 
 .header .nav-item.active .nav-link:hover {
@@ -165,25 +165,13 @@ h6 {
 
 .header .nav-item .nav-link:hover {
   text-decoration: underline;
-  color: rgba(0, 0, 0, 0.6);
 }
 .logo {
-  width: 78px;
-}
-.social-list a {
-  width: 32px;
-  height: 32px;
-  padding-top: 5px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  transition: all 0.2s ease-in-out;
-  background-color: #fff;
+  width: 120px;
 }
 
-.social-list a:hover {
-  color: var(--secondary);
-  background-color: rgba(255, 255, 255, 0.8);
+.logo:hover {
+  opacity: 0.85;
 }
 
 .main-wrapper {
@@ -422,6 +410,11 @@ h6 {
 
 .btn-purple:hover {
   color: #bbb;
+}
+
+footer p {
+  margin: 0;
+  padding: 1rem 0;
 }
 
 @media (max-width: 767.98px) {
