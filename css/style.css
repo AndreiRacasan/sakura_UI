@@ -54,6 +54,10 @@ html {
 body {
   color: var(--secondary);
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
 }
 a {
   color: var(--pink);
